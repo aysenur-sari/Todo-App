@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(161, 161, 161);
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+  color: rgb(46, 10, 80);
+
+}
+
+.todo {
+  width: 60%;
+  height: 100%;
+  margin: 5%;
+  padding: 5%;
+  border-radius: 50px;
+  background-color: rgb(207, 207, 207);
+
+}
+
+h1 {
+  font-family: fantasy;
+  color: rgb(42, 6, 75);
+}
+
+.textInput {
+  border-radius: 10px;
+  width: 80%;
+  height: 30px;
+  border-color: rgb(25, 7, 43);
+  margin-right: 2%;
+}
+
+.addTodo {
+  background-color: rgb(161, 161, 161);
+  height: 30px;
+  border-radius: 5px;
+  font-family: cursive;
+  font-size: medium;
+}
+
+
+.tasks {
+  margin: 0 3%;
+  padding: 0;
+
+}
+
+.taskList {
+  margin: 1% 3% 2% 0;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.edit {
+  margin-left: -2%;
+  border-radius: 5px;
+  color: rgb(13, 13, 161);
+  font-weight: 600;
+  background-color: rgb(161, 161, 161);
+}
+
+
+.delete {
+  margin-left: 2%;
+  border-radius: 5px;
+  color: rgb(180, 23, 23);
+  font-weight: 600;
+  background-color: rgb(161, 161, 161);
+}
